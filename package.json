@@ -1,0 +1,22 @@
+{
+  "name": "reservations-demo-root",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Joe Noon <joenoon@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "lint-staged": {
+    "*.{js,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.3",
+    "prettier": "^1.11.1"
+  }
+}

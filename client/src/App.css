@@ -1,0 +1,24 @@
+.App {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 4em 1em;
+}
+
+.c-header {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-family: Georgia, serif;
+}
+
+.flash {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: rgb(169, 247, 169);
+  padding: 1em 0;
+  text-align: center;
+  border-radius: 10px;
+}

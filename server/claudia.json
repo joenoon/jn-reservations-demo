@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "reservations-demo-example-executor",
+    "name": "reservations-demo-example",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "4pfl185nac",
+    "module": "dist/index"
+  }
+}
